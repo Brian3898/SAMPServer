@@ -353,7 +353,7 @@ public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid, bodypart) 
 	if(isPlayerGod[playerid] == 1) {
 		SetPlayerHealth(playerid, 100);
 		new pName[MAX_PLAYER_NAME];
-		new message[128];
+		new message[30 + MAX_PLAYER_NAME + 1];
 		GetPlayerName(playerid, pName, MAX_PLAYER_NAME+1);
 		format(message, sizeof(message), "SERVER: %s has godmode enabled", pName);
 		SendClientMessage(issuerid, COLOR_YELLOW, message);
