@@ -277,7 +277,7 @@ public OnPlayerRequestClass(playerid, classid)
 public OnPlayerConnect(playerid)
 {
 	new pName[MAX_PLAYER_NAME];
-	new joinMessage[128];
+	new joinMessage[29 + MAX_PLAYER_NAME + 1];
 
 	GetPlayerName(playerid, pName, sizeof(pName) + 1);
 	format(joinMessage, sizeof(joinMessage), "JOIN: %s has joined the server!", pName);
@@ -289,7 +289,7 @@ public OnPlayerConnect(playerid)
 public OnPlayerDisconnect(playerid, reason)
 {
 	new pName[MAX_PLAYER_NAME];
-	new leaveMessage[128];
+	new leaveMessage[27 + MAX_PLAYER_NAME + 1];
 
 	GetPlayerName(playerid, pName, sizeof(pName) + 1);
 	format(leaveMessage, sizeof(leaveMessage), "QUIT: %s has left the server!", pName);
