@@ -1,0 +1,2688 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:28:40] filterscripts = ""  (string)
+[15:28:40] 
+[15:28:40] Server Plugins
+[15:28:40] --------------
+[15:28:40]  Loaded 0 plugins.
+
+[15:28:40] 
+[15:28:40] Filterscripts
+[15:28:40] ---------------
+[15:28:40]   Loaded 0 filterscripts.
+
+[15:28:40] Script[gamemodes/roam.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[15:28:40] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:29:34] filterscripts = ""  (string)
+[15:29:34] 
+[15:29:34] Server Plugins
+[15:29:34] --------------
+[15:29:34]  Loaded 0 plugins.
+
+[15:29:34] 
+[15:29:34] Filterscripts
+[15:29:34] ---------------
+[15:29:34]   Loaded 0 filterscripts.
+
+[15:29:34] Script[gamemodes/roam.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[15:29:34] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:37:35] filterscripts = ""  (string)
+[15:37:35] 
+[15:37:35] Server Plugins
+[15:37:35] --------------
+[15:37:35]  Loaded 0 plugins.
+
+[15:37:35] 
+[15:37:35] Filterscripts
+[15:37:35] ---------------
+[15:37:35]   Loaded 0 filterscripts.
+
+[15:37:35] 
+----------------------------------
+[15:37:35]  Blank Gamemode by your name here
+[15:37:35] ----------------------------------
+
+[15:37:35] Number of vehicle models: 0
+[15:38:30] [connection] 127.0.0.1:65312 requests connection cookie.
+[15:38:31] [connection] incoming connection: 127.0.0.1:65312 id: 0
+[15:38:41] [connection] incoming connection: 127.0.0.1:58056 id: 0
+[15:39:03] [connection] incoming connection: 127.0.0.1:58059 id: 0
+[15:39:14] [connection] incoming connection: 127.0.0.1:59126 id: 0
+[15:39:45] [connection] incoming connection: 127.0.0.1:62947 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[15:40:56] filterscripts = ""  (string)
+[15:40:56] 
+[15:40:56] Server Plugins
+[15:40:56] --------------
+[15:40:56]  Loaded 0 plugins.
+
+[15:40:56] 
+[15:40:56] Filterscripts
+[15:40:56] ---------------
+[15:40:56]   Loaded 0 filterscripts.
+
+[15:40:56] 
+----------------------------------
+[15:40:56]  Blank Gamemode by your name here
+[15:40:56] ----------------------------------
+
+[15:40:56] Number of vehicle models: 0
+[15:41:17] [connection] incoming connection: 127.0.0.1:56277 id: 0
+[15:41:17] [join] Brian has joined the server (0:127.0.0.1)
+[15:42:23] [part] Brian has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[15:51:38] filterscripts = ""  (string)
+[15:51:38] 
+[15:51:38] Server Plugins
+[15:51:38] --------------
+[15:51:38]  Loaded 0 plugins.
+
+[15:51:38] 
+[15:51:38] Filterscripts
+[15:51:38] ---------------
+[15:51:38]   Loaded 0 filterscripts.
+
+[15:51:38] 
+----------------------------------
+[15:51:38] Freeroam
+[15:51:38] ----------------------------------
+
+[15:51:38] Number of vehicle models: 0
+[15:51:52] [connection] incoming connection: 127.0.0.1:59548 id: 0
+[15:51:52] [join] Brian has joined the server (0:127.0.0.1)
+[15:52:24] [part] Brian has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[15:57:28] filterscripts = ""  (string)
+[15:57:28] 
+[15:57:28] Server Plugins
+[15:57:28] --------------
+[15:57:28]  Loaded 0 plugins.
+
+[15:57:28] 
+[15:57:28] Filterscripts
+[15:57:28] ---------------
+[15:57:28]   Loaded 0 filterscripts.
+
+[15:57:28] 
+----------------------------------
+[15:57:28] Freeroam
+[15:57:28] ----------------------------------
+
+[15:57:28] Number of vehicle models: 0
+[15:58:06] [connection] incoming connection: 127.0.0.1:55994 id: 0
+[15:58:06] [join] Brian has joined the server (0:127.0.0.1)
+[15:59:44] [part] Brian has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[15:59:51] filterscripts = ""  (string)
+[15:59:51] 
+[15:59:51] Server Plugins
+[15:59:51] --------------
+[15:59:51]  Loaded 0 plugins.
+
+[15:59:51] 
+[15:59:51] Filterscripts
+[15:59:51] ---------------
+[15:59:51]   Loaded 0 filterscripts.
+
+[15:59:51] 
+----------------------------------
+[15:59:51] Freeroam
+[15:59:51] ----------------------------------
+
+[15:59:51] Number of vehicle models: 0
+[16:00:11] [connection] incoming connection: 127.0.0.1:53107 id: 0
+[16:00:11] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:03:57] filterscripts = ""  (string)
+[16:03:57] 
+[16:03:57] Server Plugins
+[16:03:57] --------------
+[16:03:57]  Loaded 0 plugins.
+
+[16:03:57] 
+[16:03:57] Filterscripts
+[16:03:57] ---------------
+[16:03:57]   Loaded 0 filterscripts.
+
+[16:03:57] 
+----------------------------------
+[16:03:57] Freeroam
+[16:03:57] ----------------------------------
+
+[16:03:57] Number of vehicle models: 0
+[16:04:22] [connection] incoming connection: 127.0.0.1:51350 id: 0
+[16:04:22] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:46:17] filterscripts = ""  (string)
+[16:46:17] 
+[16:46:17] Server Plugins
+[16:46:17] --------------
+[16:46:17]  Loaded 0 plugins.
+
+[16:46:17] 
+[16:46:17] Filterscripts
+[16:46:17] ---------------
+[16:46:17]   Loaded 0 filterscripts.
+
+[16:46:17] Script[gamemodes/roam.amx]: Run time error 19: "File or function is not found"
+[16:46:17] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:48:01] filterscripts = ""  (string)
+[16:48:01] 
+[16:48:01] Server Plugins
+[16:48:01] --------------
+[16:48:01]  Loading plugin: sscanf2
+[16:48:01]   Failed.
+[16:48:01]  Loaded 0 plugins.
+
+[16:48:01] 
+[16:48:01] Filterscripts
+[16:48:01] ---------------
+[16:48:01]   Loaded 0 filterscripts.
+
+[16:48:01] Script[gamemodes/roam.amx]: Run time error 19: "File or function is not found"
+[16:48:01] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:49:05] filterscripts = ""  (string)
+[16:49:05] 
+[16:49:05] Server Plugins
+[16:49:05] --------------
+[16:49:05]  Loading plugin: sscanf
+[16:49:05] 
+
+[16:49:05]  ===============================
+
+[16:49:05]       sscanf plugin loaded.     
+
+[16:49:05]          Version:  2.8.3        
+
+[16:49:05]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:49:05]  ===============================
+
+[16:49:05]   Loaded.
+[16:49:05]  Loaded 1 plugins.
+
+[16:49:05] 
+[16:49:05] Filterscripts
+[16:49:05] ---------------
+[16:49:05]   Loaded 0 filterscripts.
+
+[16:49:05] 
+----------------------------------
+[16:49:05] Freeroam
+[16:49:05] ----------------------------------
+
+[16:49:05] Number of vehicle models: 0
+[16:49:10] [connection] incoming connection: 127.0.0.1:49385 id: 0
+[16:49:10] [join] Brian has joined the server (0:127.0.0.1)
+[16:49:35] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:49:35] sscanf warning: Format specifier does not match parameter count.
+[16:49:42] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:49:42] sscanf warning: Format specifier does not match parameter count.
+[16:49:51] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:49:51] sscanf warning: Format specifier does not match parameter count.
+[16:49:53] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:49:53] sscanf warning: Format specifier does not match parameter count.
+[16:49:57] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:49:57] sscanf warning: Format specifier does not match parameter count.
+[16:50:01] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:50:01] sscanf warning: Format specifier does not match parameter count.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:58:18] filterscripts = ""  (string)
+[16:58:18] 
+[16:58:18] Server Plugins
+[16:58:18] --------------
+[16:58:18]  Loading plugin: sscanf
+[16:58:18] 
+
+[16:58:18]  ===============================
+
+[16:58:18]       sscanf plugin loaded.     
+
+[16:58:18]          Version:  2.8.3        
+
+[16:58:18]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:58:18]  ===============================
+
+[16:58:18]   Loaded.
+[16:58:18]  Loaded 1 plugins.
+
+[16:58:18] 
+[16:58:18] Filterscripts
+[16:58:18] ---------------
+[16:58:18]   Loaded 0 filterscripts.
+
+[16:58:18] 
+----------------------------------
+[16:58:18] Freeroam
+[16:58:18] ----------------------------------
+
+[16:58:18] Number of vehicle models: 0
+[16:58:32] [connection] incoming connection: 127.0.0.1:62501 id: 0
+[16:58:32] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:06:34] filterscripts = ""  (string)
+[17:06:34] 
+[17:06:34] Server Plugins
+[17:06:34] --------------
+[17:06:34]  Loading plugin: sscanf
+[17:06:34] 
+
+[17:06:34]  ===============================
+
+[17:06:34]       sscanf plugin loaded.     
+
+[17:06:34]          Version:  2.8.3        
+
+[17:06:34]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:06:34]  ===============================
+
+[17:06:34]   Loaded.
+[17:06:34]  Loaded 1 plugins.
+
+[17:06:34] 
+[17:06:34] Filterscripts
+[17:06:34] ---------------
+[17:06:34]   Loaded 0 filterscripts.
+
+[17:06:34] 
+----------------------------------
+[17:06:34] Freeroam
+[17:06:34] ----------------------------------
+
+[17:06:34] Number of vehicle models: 0
+[17:06:43] [connection] incoming connection: 127.0.0.1:61810 id: 0
+[17:06:43] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:15:22] filterscripts = ""  (string)
+[17:15:22] 
+[17:15:22] Server Plugins
+[17:15:22] --------------
+[17:15:22]  Loading plugin: sscanf
+[17:15:22] 
+
+[17:15:22]  ===============================
+
+[17:15:22]       sscanf plugin loaded.     
+
+[17:15:22]          Version:  2.8.3        
+
+[17:15:22]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:15:22]  ===============================
+
+[17:15:22]   Loaded.
+[17:15:22]  Loaded 1 plugins.
+
+[17:15:22] 
+[17:15:22] Filterscripts
+[17:15:22] ---------------
+[17:15:22]   Loaded 0 filterscripts.
+
+[17:15:22] 
+----------------------------------
+[17:15:22] Freeroam
+[17:15:22] ----------------------------------
+
+[17:15:22] Number of vehicle models: 0
+[17:15:30] [connection] incoming connection: 127.0.0.1:51704 id: 0
+[17:15:30] [join] Brian has joined the server (0:127.0.0.1)
+[17:18:13] [part] Brian has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:20:15] filterscripts = ""  (string)
+[17:20:15] 
+[17:20:15] Server Plugins
+[17:20:15] --------------
+[17:20:15]  Loading plugin: sscanf
+[17:20:15] 
+
+[17:20:15]  ===============================
+
+[17:20:15]       sscanf plugin loaded.     
+
+[17:20:15]          Version:  2.8.3        
+
+[17:20:15]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:20:15]  ===============================
+
+[17:20:15]   Loaded.
+[17:20:15]  Loaded 1 plugins.
+
+[17:20:15] 
+[17:20:15] Filterscripts
+[17:20:15] ---------------
+[17:20:15]   Loaded 0 filterscripts.
+
+[17:20:15] 
+----------------------------------
+[17:20:15] Freeroam
+[17:20:15] ----------------------------------
+
+[17:20:15] Number of vehicle models: 0
+[17:20:34] [connection] incoming connection: 127.0.0.1:56138 id: 0
+[17:20:34] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:21:12] filterscripts = ""  (string)
+[17:21:12] 
+[17:21:12] Server Plugins
+[17:21:12] --------------
+[17:21:12]  Loading plugin: sscanf
+[17:21:12] 
+
+[17:21:12]  ===============================
+
+[17:21:12]       sscanf plugin loaded.     
+
+[17:21:12]          Version:  2.8.3        
+
+[17:21:12]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:21:12]  ===============================
+
+[17:21:12]   Loaded.
+[17:21:12]  Loaded 1 plugins.
+
+[17:21:13] 
+[17:21:13] Filterscripts
+[17:21:13] ---------------
+[17:21:13]   Loaded 0 filterscripts.
+
+[17:21:13] 
+----------------------------------
+[17:21:13] Freeroam
+[17:21:13] ----------------------------------
+
+[17:21:13] Number of vehicle models: 0
+[17:21:27] [connection] incoming connection: 127.0.0.1:56141 id: 0
+[17:21:27] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:25:32] filterscripts = ""  (string)
+[17:25:32] 
+[17:25:32] Server Plugins
+[17:25:32] --------------
+[17:25:32]  Loading plugin: sscanf
+[17:25:32] 
+
+[17:25:32]  ===============================
+
+[17:25:32]       sscanf plugin loaded.     
+
+[17:25:32]          Version:  2.8.3        
+
+[17:25:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:25:32]  ===============================
+
+[17:25:32]   Loaded.
+[17:25:32]  Loaded 1 plugins.
+
+[17:25:32] 
+[17:25:32] Filterscripts
+[17:25:32] ---------------
+[17:25:32]   Loaded 0 filterscripts.
+
+[17:25:32] 
+----------------------------------
+[17:25:32] Freeroam
+[17:25:32] ----------------------------------
+
+[17:25:32] Number of vehicle models: 0
+[17:25:49] [connection] incoming connection: 127.0.0.1:58288 id: 0
+[17:25:49] [join] Brian has joined the server (0:127.0.0.1)
+[17:27:19] [part] Brian has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:26:02] filterscripts = ""  (string)
+[19:26:02] 
+[19:26:02] Server Plugins
+[19:26:02] --------------
+[19:26:02]  Loading plugin: sscanf
+[19:26:02] 
+
+[19:26:02]  ===============================
+
+[19:26:02]       sscanf plugin loaded.     
+
+[19:26:02]          Version:  2.8.3        
+
+[19:26:02]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:26:02]  ===============================
+
+[19:26:02]   Loaded.
+[19:26:02]  Loaded 1 plugins.
+
+[19:26:02] 
+[19:26:02] Filterscripts
+[19:26:02] ---------------
+[19:26:02]   Loaded 0 filterscripts.
+
+[19:26:02] 
+----------------------------------
+[19:26:02] Freeroam
+[19:26:02] ----------------------------------
+
+[19:26:02] Number of vehicle models: 0
+[19:26:34] [connection] incoming connection: 127.0.0.1:52973 id: 0
+[19:26:34] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:27:51] filterscripts = ""  (string)
+[19:27:51] 
+[19:27:51] Server Plugins
+[19:27:51] --------------
+[19:27:51]  Loading plugin: sscanf
+[19:27:51] 
+
+[19:27:51]  ===============================
+
+[19:27:51]       sscanf plugin loaded.     
+
+[19:27:51]          Version:  2.8.3        
+
+[19:27:51]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:27:51]  ===============================
+
+[19:27:51]   Loaded.
+[19:27:51]  Loaded 1 plugins.
+
+[19:27:51] 
+[19:27:51] Filterscripts
+[19:27:51] ---------------
+[19:27:51]   Loaded 0 filterscripts.
+
+[19:27:51] 
+----------------------------------
+[19:27:51] Freeroam
+[19:27:51] ----------------------------------
+
+[19:27:51] Number of vehicle models: 0
+[19:28:14] [connection] incoming connection: 127.0.0.1:58189 id: 0
+[19:28:14] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:31:45] filterscripts = ""  (string)
+[19:31:45] 
+[19:31:45] Server Plugins
+[19:31:45] --------------
+[19:31:45]  Loading plugin: sscanf
+[19:31:45] 
+
+[19:31:45]  ===============================
+
+[19:31:45]       sscanf plugin loaded.     
+
+[19:31:45]          Version:  2.8.3        
+
+[19:31:45]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:31:45]  ===============================
+
+[19:31:45]   Loaded.
+[19:31:45]  Loaded 1 plugins.
+
+[19:31:45] 
+[19:31:45] Filterscripts
+[19:31:45] ---------------
+[19:31:45]   Loaded 0 filterscripts.
+
+[19:31:45] 
+----------------------------------
+[19:31:45] Freeroam
+[19:31:45] ----------------------------------
+
+[19:31:45] Number of vehicle models: 0
+[19:31:55] [connection] incoming connection: 127.0.0.1:57910 id: 0
+[19:31:55] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[13:40:05] filterscripts = ""  (string)
+[13:40:05] 
+[13:40:05] Server Plugins
+[13:40:05] --------------
+[13:40:05]  Loading plugin: sscanf
+[13:40:05] 
+
+[13:40:05]  ===============================
+
+[13:40:05]       sscanf plugin loaded.     
+
+[13:40:05]          Version:  2.8.3        
+
+[13:40:05]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:40:05]  ===============================
+
+[13:40:05]   Loaded.
+[13:40:05]  Loaded 1 plugins.
+
+[13:40:05] 
+[13:40:05] Filterscripts
+[13:40:05] ---------------
+[13:40:05]   Loaded 0 filterscripts.
+
+[13:40:05] 
+----------------------------------
+[13:40:05] Freeroam
+[13:40:05] ----------------------------------
+
+[13:40:05] Number of vehicle models: 0
+[13:40:40] [connection] incoming connection: 127.0.0.1:53337 id: 0
+[13:40:40] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[14:13:56] filterscripts = ""  (string)
+[14:13:56] 
+[14:13:56] Server Plugins
+[14:13:56] --------------
+[14:13:56]  Loading plugin: sscanf
+[14:13:56] 
+
+[14:13:56]  ===============================
+
+[14:13:56]       sscanf plugin loaded.     
+
+[14:13:56]          Version:  2.8.3        
+
+[14:13:56]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:13:56]  ===============================
+
+[14:13:56]   Loaded.
+[14:13:56]  Loaded 1 plugins.
+
+[14:13:56] 
+[14:13:56] Filterscripts
+[14:13:56] ---------------
+[14:13:56]   Loaded 0 filterscripts.
+
+[14:13:56] 
+----------------------------------
+[14:13:56] Freeroam
+[14:13:56] ----------------------------------
+
+[14:13:56] Number of vehicle models: 0
+[14:14:17] [connection] incoming connection: 127.0.0.1:54392 id: 0
+[14:14:17] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[14:21:13] filterscripts = ""  (string)
+[14:21:13] 
+[14:21:13] Server Plugins
+[14:21:13] --------------
+[14:21:13]  Loading plugin: sscanf
+[14:21:13] 
+
+[14:21:13]  ===============================
+
+[14:21:13]       sscanf plugin loaded.     
+
+[14:21:13]          Version:  2.8.3        
+
+[14:21:13]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:21:13]  ===============================
+
+[14:21:13]   Loaded.
+[14:21:13]  Loaded 1 plugins.
+
+[14:21:13] 
+[14:21:13] Filterscripts
+[14:21:13] ---------------
+[14:21:13]   Loaded 0 filterscripts.
+
+[14:21:13] 
+----------------------------------
+[14:21:13] Freeroam
+[14:21:13] ----------------------------------
+
+[14:21:13] Number of vehicle models: 0
+[14:21:28] [connection] incoming connection: 127.0.0.1:53598 id: 0
+[14:21:28] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[14:25:54] filterscripts = ""  (string)
+[14:25:54] 
+[14:25:54] Server Plugins
+[14:25:54] --------------
+[14:25:54]  Loading plugin: sscanf
+[14:25:54] 
+
+[14:25:54]  ===============================
+
+[14:25:54]       sscanf plugin loaded.     
+
+[14:25:54]          Version:  2.8.3        
+
+[14:25:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:25:54]  ===============================
+
+[14:25:54]   Loaded.
+[14:25:54]  Loaded 1 plugins.
+
+[14:25:54] 
+[14:25:54] Filterscripts
+[14:25:54] ---------------
+[14:25:54]   Loaded 0 filterscripts.
+
+[14:25:54] 
+----------------------------------
+[14:25:54] Freeroam
+[14:25:54] ----------------------------------
+
+[14:25:54] Number of vehicle models: 0
+[14:26:13] [connection] incoming connection: 127.0.0.1:55050 id: 0
+[14:26:13] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[14:36:16] filterscripts = ""  (string)
+[14:36:16] 
+[14:36:16] Server Plugins
+[14:36:16] --------------
+[14:36:16]  Loading plugin: sscanf
+[14:36:16] 
+
+[14:36:16]  ===============================
+
+[14:36:16]       sscanf plugin loaded.     
+
+[14:36:16]          Version:  2.8.3        
+
+[14:36:16]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:36:16]  ===============================
+
+[14:36:16]   Loaded.
+[14:36:16]  Loaded 1 plugins.
+
+[14:36:16] 
+[14:36:16] Filterscripts
+[14:36:16] ---------------
+[14:36:16]   Loaded 0 filterscripts.
+
+[14:36:16] 
+----------------------------------
+[14:36:16] Freeroam
+[14:36:16] ----------------------------------
+
+[14:36:16] Number of vehicle models: 0
+[14:36:21] [connection] incoming connection: 127.0.0.1:63370 id: 0
+[14:36:22] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:58:15] filterscripts = ""  (string)
+[16:58:15] 
+[16:58:15] Server Plugins
+[16:58:15] --------------
+[16:58:15]  Loading plugin: sscanf
+[16:58:15] 
+
+[16:58:15]  ===============================
+
+[16:58:15]       sscanf plugin loaded.     
+
+[16:58:15]          Version:  2.8.3        
+
+[16:58:15]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:58:15]  ===============================
+
+[16:58:15]   Loaded.
+[16:58:15]  Loaded 1 plugins.
+
+[16:58:15] 
+[16:58:15] Filterscripts
+[16:58:15] ---------------
+[16:58:15]   Loaded 0 filterscripts.
+
+[16:58:15] 
+----------------------------------
+[16:58:15] Freeroam
+[16:58:15] ----------------------------------
+
+[16:58:15] Number of vehicle models: 0
+[16:58:47] [connection] incoming connection: 127.0.0.1:51948 id: 0
+[16:58:47] [join] Brian has joined the server (0:127.0.0.1)
+[16:58:54] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:59:36] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[16:59:42] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:00:07] filterscripts = ""  (string)
+[17:00:07] 
+[17:00:07] Server Plugins
+[17:00:07] --------------
+[17:00:07]  Loading plugin: sscanf
+[17:00:07] 
+
+[17:00:07]  ===============================
+
+[17:00:07]       sscanf plugin loaded.     
+
+[17:00:07]          Version:  2.8.3        
+
+[17:00:07]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:00:07]  ===============================
+
+[17:00:07]   Loaded.
+[17:00:07]  Loaded 1 plugins.
+
+[17:00:07] 
+[17:00:07] Filterscripts
+[17:00:07] ---------------
+[17:00:07]   Loaded 0 filterscripts.
+
+[17:00:07] 
+----------------------------------
+[17:00:07] Freeroam
+[17:00:07] ----------------------------------
+
+[17:00:07] Number of vehicle models: 0
+[17:00:26] [connection] incoming connection: 127.0.0.1:58717 id: 0
+[17:00:26] [join] Brian has joined the server (0:127.0.0.1)
+[17:00:33] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:00:49] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:01:44] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:02:10] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:05:52] filterscripts = ""  (string)
+[17:05:52] 
+[17:05:52] Server Plugins
+[17:05:52] --------------
+[17:05:52]  Loading plugin: sscanf
+[17:05:52] 
+
+[17:05:52]  ===============================
+
+[17:05:52]       sscanf plugin loaded.     
+
+[17:05:52]          Version:  2.8.3        
+
+[17:05:52]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:05:52]  ===============================
+
+[17:05:52]   Loaded.
+[17:05:52]  Loaded 1 plugins.
+
+[17:05:52] 
+[17:05:52] Filterscripts
+[17:05:52] ---------------
+[17:05:52]   Loaded 0 filterscripts.
+
+[17:05:52] 
+----------------------------------
+[17:05:52] Freeroam
+[17:05:52] ----------------------------------
+
+[17:05:52] Number of vehicle models: 0
+[17:06:11] [connection] incoming connection: 127.0.0.1:54568 id: 0
+[17:06:11] [join] Brian has joined the server (0:127.0.0.1)
+[17:06:16] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:06:44] filterscripts = ""  (string)
+[17:06:44] 
+[17:06:44] Server Plugins
+[17:06:44] --------------
+[17:06:44]  Loading plugin: sscanf
+[17:06:44] 
+
+[17:06:44]  ===============================
+
+[17:06:44]       sscanf plugin loaded.     
+
+[17:06:44]          Version:  2.8.3        
+
+[17:06:44]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:06:44]  ===============================
+
+[17:06:44]   Loaded.
+[17:06:44]  Loaded 1 plugins.
+
+[17:06:44] 
+[17:06:44] Filterscripts
+[17:06:44] ---------------
+[17:06:44]   Loaded 0 filterscripts.
+
+[17:06:44] 
+----------------------------------
+[17:06:44] Freeroam
+[17:06:44] ----------------------------------
+
+[17:06:44] Number of vehicle models: 0
+[17:07:02] [connection] incoming connection: 127.0.0.1:62922 id: 0
+[17:07:02] [join] Brian has joined the server (0:127.0.0.1)
+[17:07:07] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:07:58] filterscripts = ""  (string)
+[17:07:58] 
+[17:07:58] Server Plugins
+[17:07:58] --------------
+[17:07:58]  Loading plugin: sscanf
+[17:07:58] 
+
+[17:07:58]  ===============================
+
+[17:07:58]       sscanf plugin loaded.     
+
+[17:07:58]          Version:  2.8.3        
+
+[17:07:58]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:07:58]  ===============================
+
+[17:07:58]   Loaded.
+[17:07:58]  Loaded 1 plugins.
+
+[17:07:58] 
+[17:07:58] Filterscripts
+[17:07:58] ---------------
+[17:07:58]   Loaded 0 filterscripts.
+
+[17:07:58] 
+----------------------------------
+[17:07:58] Freeroam
+[17:07:58] ----------------------------------
+
+[17:07:58] Number of vehicle models: 0
+[17:08:08] [connection] incoming connection: 127.0.0.1:52786 id: 0
+[17:08:09] [join] Brian has joined the server (0:127.0.0.1)
+[17:08:13] sscanf warning: Strings without a length are deprecated, please add a destination size.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:10:13] filterscripts = ""  (string)
+[17:10:13] 
+[17:10:13] Server Plugins
+[17:10:13] --------------
+[17:10:13]  Loading plugin: sscanf
+[17:10:13] 
+
+[17:10:13]  ===============================
+
+[17:10:13]       sscanf plugin loaded.     
+
+[17:10:13]          Version:  2.8.3        
+
+[17:10:13]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:10:13]  ===============================
+
+[17:10:13]   Loaded.
+[17:10:13]  Loaded 1 plugins.
+
+[17:10:13] 
+[17:10:13] Filterscripts
+[17:10:13] ---------------
+[17:10:13]   Loaded 0 filterscripts.
+
+[17:10:13] 
+----------------------------------
+[17:10:13] Freeroam
+[17:10:13] ----------------------------------
+
+[17:10:13] Number of vehicle models: 0
+[17:10:29] [connection] incoming connection: 127.0.0.1:57522 id: 0
+[17:10:29] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:10:58] filterscripts = ""  (string)
+[17:10:58] 
+[17:10:58] Server Plugins
+[17:10:58] --------------
+[17:10:58]  Loading plugin: sscanf
+[17:10:58] 
+
+[17:10:58]  ===============================
+
+[17:10:58]       sscanf plugin loaded.     
+
+[17:10:58]          Version:  2.8.3        
+
+[17:10:58]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:10:58]  ===============================
+
+[17:10:58]   Loaded.
+[17:10:58]  Loaded 1 plugins.
+
+[17:10:58] 
+[17:10:58] Filterscripts
+[17:10:58] ---------------
+[17:10:58]   Loaded 0 filterscripts.
+
+[17:10:58] 
+----------------------------------
+[17:10:58] Freeroam
+[17:10:58] ----------------------------------
+
+[17:10:58] Number of vehicle models: 0
+[17:11:06] [connection] incoming connection: 127.0.0.1:60876 id: 0
+[17:11:06] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:11:28] filterscripts = ""  (string)
+[17:11:28] 
+[17:11:28] Server Plugins
+[17:11:28] --------------
+[17:11:28]  Loading plugin: sscanf
+[17:11:28] 
+
+[17:11:28]  ===============================
+
+[17:11:28]       sscanf plugin loaded.     
+
+[17:11:28]          Version:  2.8.3        
+
+[17:11:28]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:11:28]  ===============================
+
+[17:11:28]   Loaded.
+[17:11:28]  Loaded 1 plugins.
+
+[17:11:28] 
+[17:11:28] Filterscripts
+[17:11:28] ---------------
+[17:11:28]   Loaded 0 filterscripts.
+
+[17:11:28] 
+----------------------------------
+[17:11:28] Freeroam
+[17:11:28] ----------------------------------
+
+[17:11:28] Number of vehicle models: 0
+[17:11:43] [connection] incoming connection: 127.0.0.1:60882 id: 0
+[17:11:44] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:17:58] filterscripts = ""  (string)
+[17:17:58] 
+[17:17:58] Server Plugins
+[17:17:58] --------------
+[17:17:58]  Loading plugin: sscanf
+[17:17:58] 
+
+[17:17:58]  ===============================
+
+[17:17:58]       sscanf plugin loaded.     
+
+[17:17:58]          Version:  2.8.3        
+
+[17:17:58]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:17:58]  ===============================
+
+[17:17:58]   Loaded.
+[17:17:58]  Loaded 1 plugins.
+
+[17:17:58] 
+[17:17:58] Filterscripts
+[17:17:58] ---------------
+[17:17:58]   Loaded 0 filterscripts.
+
+[17:17:58] 
+----------------------------------
+[17:17:58] Freeroam
+[17:17:58] ----------------------------------
+
+[17:17:58] Number of vehicle models: 0
+[17:18:20] [connection] incoming connection: 127.0.0.1:64143 id: 0
+[17:18:20] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:19:10] filterscripts = ""  (string)
+[17:19:10] 
+[17:19:10] Server Plugins
+[17:19:10] --------------
+[17:19:10]  Loading plugin: sscanf
+[17:19:10] 
+
+[17:19:10]  ===============================
+
+[17:19:10]       sscanf plugin loaded.     
+
+[17:19:10]          Version:  2.8.3        
+
+[17:19:10]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:19:10]  ===============================
+
+[17:19:10]   Loaded.
+[17:19:10]  Loaded 1 plugins.
+
+[17:19:11] 
+[17:19:11] Filterscripts
+[17:19:11] ---------------
+[17:19:11]   Loaded 0 filterscripts.
+
+[17:19:11] 
+----------------------------------
+[17:19:11] Freeroam
+[17:19:11] ----------------------------------
+
+[17:19:11] Number of vehicle models: 0
+[17:19:30] [connection] incoming connection: 127.0.0.1:57912 id: 0
+[17:19:30] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:43:12] filterscripts = ""  (string)
+[17:43:12] 
+[17:43:12] Server Plugins
+[17:43:12] --------------
+[17:43:12]  Loading plugin: sscanf
+[17:43:12] 
+
+[17:43:12]  ===============================
+
+[17:43:12]       sscanf plugin loaded.     
+
+[17:43:12]          Version:  2.8.3        
+
+[17:43:12]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:43:12]  ===============================
+
+[17:43:12]   Loaded.
+[17:43:12]  Loaded 1 plugins.
+
+[17:43:12] 
+[17:43:12] Filterscripts
+[17:43:12] ---------------
+[17:43:12]   Loaded 0 filterscripts.
+
+[17:43:12] 
+----------------------------------
+[17:43:12] Freeroam
+[17:43:12] ----------------------------------
+
+[17:43:12] Number of vehicle models: 0
+[17:43:28] [connection] incoming connection: 127.0.0.1:60108 id: 0
+[17:43:28] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:44:40] filterscripts = ""  (string)
+[17:44:40] 
+[17:44:40] Server Plugins
+[17:44:40] --------------
+[17:44:40]  Loading plugin: sscanf
+[17:44:40] 
+
+[17:44:40]  ===============================
+
+[17:44:40]       sscanf plugin loaded.     
+
+[17:44:40]          Version:  2.8.3        
+
+[17:44:40]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:44:40]  ===============================
+
+[17:44:40]   Loaded.
+[17:44:40]  Loaded 1 plugins.
+
+[17:44:41] 
+[17:44:41] Filterscripts
+[17:44:41] ---------------
+[17:44:41]   Loaded 0 filterscripts.
+
+[17:44:41] 
+----------------------------------
+[17:44:41] Freeroam
+[17:44:41] ----------------------------------
+
+[17:44:41] Number of vehicle models: 0
+[17:44:54] [connection] incoming connection: 127.0.0.1:61278 id: 0
+[17:44:54] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:45:16] filterscripts = ""  (string)
+[17:45:16] 
+[17:45:16] Server Plugins
+[17:45:16] --------------
+[17:45:16]  Loading plugin: sscanf
+[17:45:16] 
+
+[17:45:16]  ===============================
+
+[17:45:16]       sscanf plugin loaded.     
+
+[17:45:16]          Version:  2.8.3        
+
+[17:45:16]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:45:16]  ===============================
+
+[17:45:16]   Loaded.
+[17:45:16]  Loaded 1 plugins.
+
+[17:45:16] 
+[17:45:16] Filterscripts
+[17:45:16] ---------------
+[17:45:16]   Loaded 0 filterscripts.
+
+[17:45:16] 
+----------------------------------
+[17:45:16] Freeroam
+[17:45:16] ----------------------------------
+
+[17:45:16] Number of vehicle models: 0
+[17:45:31] [connection] incoming connection: 127.0.0.1:61281 id: 0
+[17:45:31] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:01:39] filterscripts = ""  (string)
+[18:01:39] 
+[18:01:39] Server Plugins
+[18:01:39] --------------
+[18:01:39]  Loading plugin: sscanf
+[18:01:39] 
+
+[18:01:39]  ===============================
+
+[18:01:39]       sscanf plugin loaded.     
+
+[18:01:39]          Version:  2.8.3        
+
+[18:01:39]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:01:39]  ===============================
+
+[18:01:39]   Loaded.
+[18:01:39]  Loaded 1 plugins.
+
+[18:01:39] 
+[18:01:39] Filterscripts
+[18:01:39] ---------------
+[18:01:39]   Loaded 0 filterscripts.
+
+[18:01:39] 
+----------------------------------
+[18:01:39] Freeroam
+[18:01:39] ----------------------------------
+
+[18:01:39] Number of vehicle models: 0
+[18:01:47] [connection] incoming connection: 127.0.0.1:52972 id: 0
+[18:01:47] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:04:17] filterscripts = ""  (string)
+[18:04:17] 
+[18:04:17] Server Plugins
+[18:04:17] --------------
+[18:04:17]  Loading plugin: sscanf
+[18:04:17] 
+
+[18:04:17]  ===============================
+
+[18:04:17]       sscanf plugin loaded.     
+
+[18:04:17]          Version:  2.8.3        
+
+[18:04:17]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:04:17]  ===============================
+
+[18:04:17]   Loaded.
+[18:04:17]  Loaded 1 plugins.
+
+[18:04:17] 
+[18:04:17] Filterscripts
+[18:04:17] ---------------
+[18:04:17]   Loaded 0 filterscripts.
+
+[18:04:17] 
+----------------------------------
+[18:04:17] Freeroam
+[18:04:17] ----------------------------------
+
+[18:04:17] Number of vehicle models: 0
+[18:04:26] [connection] incoming connection: 127.0.0.1:52316 id: 0
+[18:04:26] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:05:52] filterscripts = ""  (string)
+[18:05:52] 
+[18:05:52] Server Plugins
+[18:05:52] --------------
+[18:05:52]  Loading plugin: sscanf
+[18:05:52] 
+
+[18:05:52]  ===============================
+
+[18:05:52]       sscanf plugin loaded.     
+
+[18:05:52]          Version:  2.8.3        
+
+[18:05:52]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:05:52]  ===============================
+
+[18:05:52]   Loaded.
+[18:05:52]  Loaded 1 plugins.
+
+[18:05:52] 
+[18:05:52] Filterscripts
+[18:05:52] ---------------
+[18:05:52]   Loaded 0 filterscripts.
+
+[18:05:52] 
+----------------------------------
+[18:05:52] Freeroam
+[18:05:52] ----------------------------------
+
+[18:05:52] Number of vehicle models: 0
+[18:06:13] [connection] incoming connection: 127.0.0.1:52321 id: 0
+[18:06:13] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:09:42] filterscripts = ""  (string)
+[18:09:42] 
+[18:09:42] Server Plugins
+[18:09:42] --------------
+[18:09:42]  Loading plugin: sscanf
+[18:09:42] 
+
+[18:09:42]  ===============================
+
+[18:09:42]       sscanf plugin loaded.     
+
+[18:09:42]          Version:  2.8.3        
+
+[18:09:42]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:09:42]  ===============================
+
+[18:09:42]   Loaded.
+[18:09:42]  Loaded 1 plugins.
+
+[18:09:42] 
+[18:09:42] Filterscripts
+[18:09:42] ---------------
+[18:09:42]   Loaded 0 filterscripts.
+
+[18:09:42] 
+----------------------------------
+[18:09:42] Freeroam
+[18:09:42] ----------------------------------
+
+[18:09:42] Number of vehicle models: 0
+[18:09:56] [connection] incoming connection: 127.0.0.1:55635 id: 0
+[18:09:56] [join] Brian has joined the server (0:127.0.0.1)
+[18:10:05] I'm under the timer!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:11:09] filterscripts = ""  (string)
+[18:11:09] 
+[18:11:09] Server Plugins
+[18:11:09] --------------
+[18:11:09]  Loading plugin: sscanf
+[18:11:09] 
+
+[18:11:09]  ===============================
+
+[18:11:09]       sscanf plugin loaded.     
+
+[18:11:09]          Version:  2.8.3        
+
+[18:11:09]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:11:09]  ===============================
+
+[18:11:09]   Loaded.
+[18:11:09]  Loaded 1 plugins.
+
+[18:11:09] 
+[18:11:09] Filterscripts
+[18:11:09] ---------------
+[18:11:09]   Loaded 0 filterscripts.
+
+[18:11:09] 
+----------------------------------
+[18:11:09] Freeroam
+[18:11:09] ----------------------------------
+
+[18:11:09] Number of vehicle models: 0
+[18:11:21] [connection] incoming connection: 127.0.0.1:50899 id: 0
+[18:11:21] [join] Brian has joined the server (0:127.0.0.1)
+[18:11:26] I'm under the timer! Timer value is 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:12:54] filterscripts = ""  (string)
+[18:12:54] 
+[18:12:54] Server Plugins
+[18:12:54] --------------
+[18:12:54]  Loading plugin: sscanf
+[18:12:54] 
+
+[18:12:54]  ===============================
+
+[18:12:54]       sscanf plugin loaded.     
+
+[18:12:54]          Version:  2.8.3        
+
+[18:12:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:12:54]  ===============================
+
+[18:12:54]   Loaded.
+[18:12:54]  Loaded 1 plugins.
+
+[18:12:54] 
+[18:12:54] Filterscripts
+[18:12:54] ---------------
+[18:12:54]   Loaded 0 filterscripts.
+
+[18:12:54] 
+----------------------------------
+[18:12:54] Freeroam
+[18:12:54] ----------------------------------
+
+[18:12:54] Number of vehicle models: 0
+[18:13:12] [connection] incoming connection: 127.0.0.1:64666 id: 0
+[18:13:12] [join] Brian has joined the server (0:127.0.0.1)
+[18:13:18] I'm under the timer! Timer value is 0 Is player VGod? 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:17:10] filterscripts = ""  (string)
+[18:17:10] 
+[18:17:10] Server Plugins
+[18:17:10] --------------
+[18:17:10]  Loading plugin: sscanf
+[18:17:10] 
+
+[18:17:10]  ===============================
+
+[18:17:10]       sscanf plugin loaded.     
+
+[18:17:10]          Version:  2.8.3        
+
+[18:17:10]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:17:10]  ===============================
+
+[18:17:10]   Loaded.
+[18:17:10]  Loaded 1 plugins.
+
+[18:17:10] 
+[18:17:10] Filterscripts
+[18:17:10] ---------------
+[18:17:10]   Loaded 0 filterscripts.
+
+[18:17:10] 
+----------------------------------
+[18:17:10] Freeroam
+[18:17:10] ----------------------------------
+
+[18:17:10] Number of vehicle models: 0
+[18:17:22] [connection] incoming connection: 127.0.0.1:63458 id: 0
+[18:17:22] [join] Brian has joined the server (0:127.0.0.1)
+[18:17:26] I'm under the timer! Timer value is 0 Is player VGod? 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:17:44] filterscripts = ""  (string)
+[18:17:44] 
+[18:17:44] Server Plugins
+[18:17:44] --------------
+[18:17:44]  Loading plugin: sscanf
+[18:17:44] 
+
+[18:17:44]  ===============================
+
+[18:17:44]       sscanf plugin loaded.     
+
+[18:17:44]          Version:  2.8.3        
+
+[18:17:44]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:17:44]  ===============================
+
+[18:17:44]   Loaded.
+[18:17:44]  Loaded 1 plugins.
+
+[18:17:44] 
+[18:17:44] Filterscripts
+[18:17:44] ---------------
+[18:17:44]   Loaded 0 filterscripts.
+
+[18:17:44] 
+----------------------------------
+[18:17:44] Freeroam
+[18:17:44] ----------------------------------
+
+[18:17:44] Number of vehicle models: 0
+[18:17:57] [connection] incoming connection: 127.0.0.1:63461 id: 0
+[18:17:57] [join] Brian has joined the server (0:127.0.0.1)
+[18:18:00] VGod value: 1
+[18:18:01] VGod value: 0
+[18:18:31] VGod value: 1
+[18:19:21] VGod value: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:21:34] filterscripts = ""  (string)
+[18:21:34] 
+[18:21:34] Server Plugins
+[18:21:34] --------------
+[18:21:34]  Loading plugin: sscanf
+[18:21:34] 
+
+[18:21:34]  ===============================
+
+[18:21:34]       sscanf plugin loaded.     
+
+[18:21:34]          Version:  2.8.3        
+
+[18:21:34]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:21:34]  ===============================
+
+[18:21:34]   Loaded.
+[18:21:34]  Loaded 1 plugins.
+
+[18:21:34] 
+[18:21:34] Filterscripts
+[18:21:34] ---------------
+[18:21:34]   Loaded 0 filterscripts.
+
+[18:21:34] 
+----------------------------------
+[18:21:34] Freeroam
+[18:21:34] ----------------------------------
+
+[18:21:34] Number of vehicle models: 0
+[18:21:40] [connection] incoming connection: 127.0.0.1:55850 id: 0
+[18:21:40] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:26:32] filterscripts = ""  (string)
+[18:26:32] 
+[18:26:32] Server Plugins
+[18:26:32] --------------
+[18:26:32]  Loading plugin: sscanf
+[18:26:32] 
+
+[18:26:32]  ===============================
+
+[18:26:32]       sscanf plugin loaded.     
+
+[18:26:32]          Version:  2.8.3        
+
+[18:26:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:26:32]  ===============================
+
+[18:26:32]   Loaded.
+[18:26:32]  Loaded 1 plugins.
+
+[18:26:33] 
+[18:26:33] Filterscripts
+[18:26:33] ---------------
+[18:26:33]   Loaded 0 filterscripts.
+
+[18:26:33] 
+----------------------------------
+[18:26:33] Freeroam
+[18:26:33] ----------------------------------
+
+[18:26:33] Number of vehicle models: 0
+[18:26:52] [connection] incoming connection: 127.0.0.1:59533 id: 0
+[18:26:52] [join] Brian has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:31:02] filterscripts = ""  (string)
+[18:31:02] 
+[18:31:02] Server Plugins
+[18:31:02] --------------
+[18:31:02]  Loading plugin: sscanf
+[18:31:02] 
+
+[18:31:02]  ===============================
+
+[18:31:02]       sscanf plugin loaded.     
+
+[18:31:02]          Version:  2.8.3        
+
+[18:31:02]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:31:02]  ===============================
+
+[18:31:02]   Loaded.
+[18:31:02]  Loaded 1 plugins.
+
+[18:31:02] 
+[18:31:02] Filterscripts
+[18:31:02] ---------------
+[18:31:02]   Loaded 0 filterscripts.
+
+[18:31:02] 
+----------------------------------
+[18:31:02] Freeroam
+[18:31:02] ----------------------------------
+
+[18:31:02] Number of vehicle models: 0
+[18:31:39] [connection] incoming connection: 192.168.1.70:58417 id: 0
+[18:31:39] [join] Brian3898 has joined the server (0:192.168.1.70)
+[18:32:16] [connection] incoming connection: 192.168.1.59:58711 id: 1
+[18:32:16] [join] Brian has joined the server (1:192.168.1.59)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[18:43:34] filterscripts = ""  (string)
+[18:43:34] 
+[18:43:34] Server Plugins
+[18:43:34] --------------
+[18:43:34]  Loading plugin: sscanf
+[18:43:34] 
+
+[18:43:34]  ===============================
+
+[18:43:34]       sscanf plugin loaded.     
+
+[18:43:34]          Version:  2.8.3        
+
+[18:43:34]   (c) 2018 Alex "Y_Less" Cole  
+
+[18:43:34]  ===============================
+
+[18:43:34]   Loaded.
+[18:43:34]  Loaded 1 plugins.
+
+[18:43:34] 
+[18:43:34] Filterscripts
+[18:43:34] ---------------
+[18:43:34]   Loaded 0 filterscripts.
+
+[18:43:34] 
+----------------------------------
+[18:43:34] Freeroam
+[18:43:34] ----------------------------------
+
+[18:43:34] Number of vehicle models: 0
+[18:43:48] [connection] incoming connection: 192.168.1.59:58347 id: 0
+[18:43:48] [join] Brian has joined the server (0:192.168.1.59)
+[18:43:54] [connection] incoming connection: 192.168.1.70:52217 id: 1
+[18:43:55] [join] Brian3898 has joined the server (1:192.168.1.70)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:00:06] filterscripts = ""  (string)
+[19:00:06] 
+[19:00:06] Server Plugins
+[19:00:06] --------------
+[19:00:06]  Loading plugin: sscanf
+[19:00:06] 
+
+[19:00:06]  ===============================
+
+[19:00:06]       sscanf plugin loaded.     
+
+[19:00:06]          Version:  2.8.3        
+
+[19:00:06]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:00:06]  ===============================
+
+[19:00:06]   Loaded.
+[19:00:06]  Loaded 1 plugins.
+
+[19:00:06] 
+[19:00:06] Filterscripts
+[19:00:06] ---------------
+[19:00:06]   Loaded 0 filterscripts.
+
+[19:00:06] 
+----------------------------------
+[19:00:06] Freeroam
+[19:00:06] ----------------------------------
+
+[19:00:06] Number of vehicle models: 0
+[19:00:07] [connection] incoming connection: 192.168.1.70:60886 id: 0
+[19:00:07] [join] Brian3898 has joined the server (0:192.168.1.70)
+[19:00:08] [connection] incoming connection: 192.168.1.59:54018 id: 1
+[19:00:08] [join] Brian has joined the server (1:192.168.1.59)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:01:29] filterscripts = ""  (string)
+[19:01:29] 
+[19:01:29] Server Plugins
+[19:01:29] --------------
+[19:01:29]  Loading plugin: sscanf
+[19:01:29] 
+
+[19:01:29]  ===============================
+
+[19:01:29]       sscanf plugin loaded.     
+
+[19:01:29]          Version:  2.8.3        
+
+[19:01:29]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:01:29]  ===============================
+
+[19:01:29]   Loaded.
+[19:01:29]  Loaded 1 plugins.
+
+[19:01:29] 
+[19:01:29] Filterscripts
+[19:01:29] ---------------
+[19:01:29]   Loaded 0 filterscripts.
+
+[19:01:29] 
+----------------------------------
+[19:01:29] Freeroam
+[19:01:29] ----------------------------------
+
+[19:01:29] Number of vehicle models: 0
+[19:01:43] [connection] incoming connection: 192.168.1.70:61113 id: 0
+[19:01:43] [join] Brian3898 has joined the server (0:192.168.1.70)
+[19:01:47] [connection] incoming connection: 192.168.1.59:54057 id: 1
+[19:01:47] [join] Brian has joined the server (1:192.168.1.59)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:05:25] filterscripts = ""  (string)
+[19:05:25] 
+[19:05:25] Server Plugins
+[19:05:25] --------------
+[19:05:25]  Loading plugin: sscanf
+[19:05:25] 
+
+[19:05:25]  ===============================
+
+[19:05:25]       sscanf plugin loaded.     
+
+[19:05:25]          Version:  2.8.3        
+
+[19:05:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:05:25]  ===============================
+
+[19:05:25]   Loaded.
+[19:05:25]  Loaded 1 plugins.
+
+[19:05:25] 
+[19:05:25] Filterscripts
+[19:05:25] ---------------
+[19:05:25]   Loaded 0 filterscripts.
+
+[19:05:25] 
+----------------------------------
+[19:05:25] Freeroam
+[19:05:25] ----------------------------------
+
+[19:05:25] Number of vehicle models: 0
+[19:05:44] [connection] incoming connection: 192.168.1.70:56155 id: 0
+[19:05:44] [join] Brian3898 has joined the server (0:192.168.1.70)
+[19:05:46] [connection] incoming connection: 192.168.1.59:53527 id: 1
+[19:05:46] [join] Brian has joined the server (1:192.168.1.59)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:15:06] filterscripts = ""  (string)
+[19:15:06] 
+[19:15:06] Server Plugins
+[19:15:06] --------------
+[19:15:06]  Loading plugin: sscanf
+[19:15:06] 
+
+[19:15:06]  ===============================
+
+[19:15:06]       sscanf plugin loaded.     
+
+[19:15:06]          Version:  2.8.3        
+
+[19:15:06]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:15:06]  ===============================
+
+[19:15:06]   Loaded.
+[19:15:06]  Loaded 1 plugins.
+
+[19:15:06] 
+[19:15:06] Filterscripts
+[19:15:06] ---------------
+[19:15:06]   Loaded 0 filterscripts.
+
+[19:15:06] 
+----------------------------------
+[19:15:06] Freeroam
+[19:15:06] ----------------------------------
+
+[19:15:06] Number of vehicle models: 0
+[19:15:23] [connection] incoming connection: 192.168.1.59:54756 id: 0
+[19:15:23] [join] Brian has joined the server (0:192.168.1.59)
+[19:15:25] [connection] incoming connection: 192.168.1.70:63086 id: 1
+[19:15:25] [join] Brian3898 has joined the server (1:192.168.1.70)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:22:21] filterscripts = ""  (string)
+[19:22:21] 
+[19:22:21] Server Plugins
+[19:22:21] --------------
+[19:22:21]  Loading plugin: sscanf
+[19:22:21] 
+
+[19:22:21]  ===============================
+
+[19:22:21]       sscanf plugin loaded.     
+
+[19:22:21]          Version:  2.8.3        
+
+[19:22:21]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:22:21]  ===============================
+
+[19:22:21]   Loaded.
+[19:22:21]  Loaded 1 plugins.
+
+[19:22:21] 
+[19:22:21] Filterscripts
+[19:22:21] ---------------
+[19:22:21]   Loaded 0 filterscripts.
+
+[19:22:21] 
+----------------------------------
+[19:22:21] Freeroam
+[19:22:21] ----------------------------------
+
+[19:22:21] Number of vehicle models: 0
+[19:22:27] [connection] incoming connection: 192.168.1.70:62689 id: 0
+[19:22:27] [join] Brian3898 has joined the server (0:192.168.1.70)
+[19:22:30] [connection] incoming connection: 192.168.1.59:56384 id: 1
+[19:22:31] [join] Brian has joined the server (1:192.168.1.59)
+[19:23:02] Driver ID is: 0
+[19:23:02] I'm here!
+[19:23:02] Driver ID is: 0
+[19:23:02] I'm here!
+[19:23:16] Driver ID is: 0
+[19:23:16] I'm here!
+[19:23:16] Driver ID is: 0
+[19:23:16] I'm here!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:26:43] filterscripts = ""  (string)
+[19:26:43] 
+[19:26:43] Server Plugins
+[19:26:43] --------------
+[19:26:43]  Loading plugin: sscanf
+[19:26:43] 
+
+[19:26:43]  ===============================
+
+[19:26:43]       sscanf plugin loaded.     
+
+[19:26:43]          Version:  2.8.3        
+
+[19:26:43]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:26:43]  ===============================
+
+[19:26:43]   Loaded.
+[19:26:43]  Loaded 1 plugins.
+
+[19:26:43] 
+[19:26:43] Filterscripts
+[19:26:43] ---------------
+[19:26:43]   Loaded 0 filterscripts.
+
+[19:26:43] 
+----------------------------------
+[19:26:43] Freeroam
+[19:26:43] ----------------------------------
+
+[19:26:43] Number of vehicle models: 0
+[19:26:52] [connection] incoming connection: 192.168.1.59:56993 id: 0
+[19:26:52] [join] Brian has joined the server (0:192.168.1.59)
+[19:26:55] [connection] incoming connection: 192.168.1.70:54248 id: 1
+[19:26:55] [join] Brian3898 has joined the server (1:192.168.1.70)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:32:32] filterscripts = ""  (string)
+[19:32:32] 
+[19:32:32] Server Plugins
+[19:32:32] --------------
+[19:32:32]  Loading plugin: sscanf
+[19:32:32] 
+
+[19:32:32]  ===============================
+
+[19:32:32]       sscanf plugin loaded.     
+
+[19:32:32]          Version:  2.8.3        
+
+[19:32:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:32:32]  ===============================
+
+[19:32:32]   Loaded.
+[19:32:32]  Loaded 1 plugins.
+
+[19:32:32] 
+[19:32:32] Filterscripts
+[19:32:32] ---------------
+[19:32:32]   Loaded 0 filterscripts.
+
+[19:32:32] 
+----------------------------------
+[19:32:32] Freeroam
+[19:32:32] ----------------------------------
+
+[19:32:32] Number of vehicle models: 0
+[19:32:41] [connection] incoming connection: 192.168.1.70:62969 id: 0
+[19:32:41] [join] Brian3898 has joined the server (0:192.168.1.70)
+[19:32:42] [connection] incoming connection: 192.168.1.59:60899 id: 1
+[19:32:42] [join] Brian has joined the server (1:192.168.1.59)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[19:39:44] filterscripts = ""  (string)
+[19:39:44] 
+[19:39:44] Server Plugins
+[19:39:44] --------------
+[19:39:44]  Loading plugin: sscanf
+[19:39:44] 
+
+[19:39:44]  ===============================
+
+[19:39:44]       sscanf plugin loaded.     
+
+[19:39:44]          Version:  2.8.3        
+
+[19:39:44]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:39:44]  ===============================
+
+[19:39:44]   Loaded.
+[19:39:44]  Loaded 1 plugins.
+
+[19:39:44] 
+[19:39:44] Filterscripts
+[19:39:44] ---------------
+[19:39:44]   Loaded 0 filterscripts.
+
+[19:39:44] 
+----------------------------------
+[19:39:44] Freeroam
+[19:39:44] ----------------------------------
+
+[19:39:44] Number of vehicle models: 0
+[19:41:34] [connection] incoming connection: 192.168.1.70:55611 id: 0
+[19:41:44] [connection] incoming connection: 192.168.1.59:51569 id: 0
+[19:41:44] [join] Brian has joined the server (0:192.168.1.59)
+[19:41:45] [part] Brian has left the server (0:1)
+[19:42:04] [connection] incoming connection: 192.168.1.254:54424 id: 0
+[19:42:04] [join] Brian has joined the server (0:192.168.1.254)
+[19:42:27] [connection] incoming connection: 192.168.1.254:55401 id: 1
+[19:42:27] [join] Brian3898 has joined the server (1:192.168.1.254)
+[19:47:24] [part] Brian has left the server (0:1)
+[19:47:28] [part] Brian3898 has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:26:26] filterscripts = ""  (string)
+[21:26:26] 
+[21:26:26] Server Plugins
+[21:26:26] --------------
+[21:26:26]  Loading plugin: sscanf
+[21:26:26] 
+
+[21:26:26]  ===============================
+
+[21:26:26]       sscanf plugin loaded.     
+
+[21:26:26]          Version:  2.8.3        
+
+[21:26:26]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:26:26]  ===============================
+
+[21:26:26]   Loaded.
+[21:26:26]  Loaded 1 plugins.
+
+[21:26:26] 
+[21:26:26] Filterscripts
+[21:26:26] ---------------
+[21:26:26]   Loaded 0 filterscripts.
+
+[21:26:26] 
+----------------------------------
+[21:26:26] Freeroam
+[21:26:26] ----------------------------------
+
+[21:26:26] Number of vehicle models: 0
+[21:26:45] [connection] incoming connection: 192.168.1.254:56920 id: 0
+[21:26:45] [join] Brian has joined the server (0:192.168.1.254)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:33:17] filterscripts = ""  (string)
+[21:33:17] 
+[21:33:17] Server Plugins
+[21:33:17] --------------
+[21:33:17]  Loading plugin: sscanf
+[21:33:17] 
+
+[21:33:17]  ===============================
+
+[21:33:17]       sscanf plugin loaded.     
+
+[21:33:17]          Version:  2.8.3        
+
+[21:33:17]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:33:17]  ===============================
+
+[21:33:17]   Loaded.
+[21:33:17]  Loaded 1 plugins.
+
+[21:33:17] 
+[21:33:17] Filterscripts
+[21:33:17] ---------------
+[21:33:17]   Loaded 0 filterscripts.
+
+[21:33:17] 
+----------------------------------
+[21:33:17] Freeroam
+[21:33:17] ----------------------------------
+
+[21:33:17] Number of vehicle models: 0
+[21:33:40] [connection] incoming connection: 192.168.1.254:52043 id: 0
+[21:33:40] [join] Brian has joined the server (0:192.168.1.254)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:36:26] filterscripts = ""  (string)
+[21:36:26] 
+[21:36:26] Server Plugins
+[21:36:26] --------------
+[21:36:26]  Loading plugin: sscanf
+[21:36:26] 
+
+[21:36:26]  ===============================
+
+[21:36:26]       sscanf plugin loaded.     
+
+[21:36:26]          Version:  2.8.3        
+
+[21:36:26]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:36:26]  ===============================
+
+[21:36:26]   Loaded.
+[21:36:26]  Loaded 1 plugins.
+
+[21:36:26] 
+[21:36:26] Filterscripts
+[21:36:26] ---------------
+[21:36:26]   Loaded 0 filterscripts.
+
+[21:36:26] 
+----------------------------------
+[21:36:26] Freeroam
+[21:36:26] ----------------------------------
+
+[21:36:26] Number of vehicle models: 0
+[21:36:37] [connection] incoming connection: 192.168.1.254:62099 id: 0
+[21:36:37] [join] Brian has joined the server (0:192.168.1.254)
+[21:37:07] I'm here!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:39:10] filterscripts = ""  (string)
+[21:39:10] 
+[21:39:10] Server Plugins
+[21:39:10] --------------
+[21:39:10]  Loading plugin: sscanf
+[21:39:10] 
+
+[21:39:10]  ===============================
+
+[21:39:10]       sscanf plugin loaded.     
+
+[21:39:10]          Version:  2.8.3        
+
+[21:39:10]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:39:10]  ===============================
+
+[21:39:10]   Loaded.
+[21:39:10]  Loaded 1 plugins.
+
+[21:39:10] 
+[21:39:10] Filterscripts
+[21:39:10] ---------------
+[21:39:10]   Loaded 0 filterscripts.
+
+[21:39:10] 
+----------------------------------
+[21:39:10] Freeroam
+[21:39:10] ----------------------------------
+
+[21:39:10] Number of vehicle models: 0
+[21:39:23] [connection] incoming connection: 192.168.1.254:61663 id: 0
+[21:39:23] [join] Brian has joined the server (0:192.168.1.254)
+[21:39:49] I'm here!
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:42:33] filterscripts = ""  (string)
+[21:42:33] 
+[21:42:33] Server Plugins
+[21:42:33] --------------
+[21:42:33]  Loading plugin: sscanf
+[21:42:33] 
+
+[21:42:33]  ===============================
+
+[21:42:33]       sscanf plugin loaded.     
+
+[21:42:33]          Version:  2.8.3        
+
+[21:42:33]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:42:33]  ===============================
+
+[21:42:33]   Loaded.
+[21:42:33]  Loaded 1 plugins.
+
+[21:42:33] 
+[21:42:33] Filterscripts
+[21:42:33] ---------------
+[21:42:33]   Loaded 0 filterscripts.
+
+[21:42:33] 
+----------------------------------
+[21:42:33] Freeroam
+[21:42:33] ----------------------------------
+
+[21:42:33] Number of vehicle models: 0
+[21:42:53] [connection] incoming connection: 192.168.1.254:60898 id: 0
+[21:42:53] [join] Brian has joined the server (0:192.168.1.254)
+[21:48:47] [connection] incoming connection: 79.106.209.47:43717 id: 1
+[21:48:47] [join] Kev has joined the server (1:79.106.209.47)
+[21:49:44] [part] Kev has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:51:22] filterscripts = ""  (string)
+[21:51:22] 
+[21:51:22] Server Plugins
+[21:51:22] --------------
+[21:51:22]  Loading plugin: sscanf
+[21:51:22] 
+
+[21:51:22]  ===============================
+
+[21:51:22]       sscanf plugin loaded.     
+
+[21:51:22]          Version:  2.8.3        
+
+[21:51:22]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:51:22]  ===============================
+
+[21:51:22]   Loaded.
+[21:51:22]  Loaded 1 plugins.
+
+[21:51:22] 
+[21:51:22] Filterscripts
+[21:51:22] ---------------
+[21:51:22]   Loaded 0 filterscripts.
+
+[21:51:22] 
+----------------------------------
+[21:51:22] Freeroam
+[21:51:22] ----------------------------------
+
+[21:51:22] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:52:48] filterscripts = ""  (string)
+[21:52:48] 
+[21:52:48] Server Plugins
+[21:52:48] --------------
+[21:52:48]  Loading plugin: sscanf
+[21:52:48] 
+
+[21:52:48]  ===============================
+
+[21:52:48]       sscanf plugin loaded.     
+
+[21:52:48]          Version:  2.8.3        
+
+[21:52:48]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:52:48]  ===============================
+
+[21:52:48]   Loaded.
+[21:52:48]  Loaded 1 plugins.
+
+[21:52:48] 
+[21:52:48] Filterscripts
+[21:52:48] ---------------
+[21:52:48]   Loaded 0 filterscripts.
+
+[21:52:48] 
+----------------------------------
+[21:52:48] Freeroam
+[21:52:48] ----------------------------------
+
+[21:52:48] Number of vehicle models: 0
+[21:52:51] [connection] incoming connection: 192.168.1.254:65515 id: 0
+[21:52:51] [join] Brian has joined the server (0:192.168.1.254)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[21:59:11] filterscripts = ""  (string)
+[21:59:11] 
+[21:59:11] Server Plugins
+[21:59:11] --------------
+[21:59:11]  Loading plugin: sscanf
+[21:59:11] 
+
+[21:59:11]  ===============================
+
+[21:59:11]       sscanf plugin loaded.     
+
+[21:59:11]          Version:  2.8.3        
+
+[21:59:11]   (c) 2018 Alex "Y_Less" Cole  
+
+[21:59:11]  ===============================
+
+[21:59:11]   Loaded.
+[21:59:11]  Loaded 1 plugins.
+
+[21:59:11] 
+[21:59:11] Filterscripts
+[21:59:11] ---------------
+[21:59:11]   Loaded 0 filterscripts.
+
+[21:59:11] 
+----------------------------------
+[21:59:11] Freeroam
+[21:59:11] ----------------------------------
+
+[21:59:11] Number of vehicle models: 0
+[21:59:32] [connection] incoming connection: 192.168.1.254:56076 id: 0
+[21:59:32] [join] Brian has joined the server (0:192.168.1.254)
+[22:00:51] [connection] incoming connection: 192.168.1.254:49733 id: 1
+[22:00:51] [join] Brian3898 has joined the server (1:192.168.1.254)
