@@ -23,6 +23,7 @@ enum playerInfo {
 
 new pInfo[MAX_PLAYERS][playerInfo];
 
+new loginAttempts[MAX_PLAYERS];
 new isPlayerVGod[MAX_PLAYERS];
 new isPlayerGod[MAX_PLAYERS];
 new vGodTimer[MAX_PLAYERS];
@@ -290,6 +291,7 @@ public OnPlayerConnect(playerid)
 	new joinMessage[29 + MAX_PLAYER_NAME + 1];
 	format(joinMessage, sizeof(joinMessage), "JOIN: %s has joined the server!", getPlayerName(playerid));
 	SendClientMessageToAll(COLOR_YELLOW, joinMessage);
+	loginAttempts[playerid] = 0;
 	if(!fexist(getUserFile(playerid))) {
 		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_INPUT, "Register", "Please insert a password to register a new account", "Register", "Quit");
 	} else {
@@ -757,16 +759,9 @@ COMMAND:disarm(playerid, params[]) {
 	return 1;
 }
 
-COMMAND:injure(playerid, params[]) {
-	SetPlayerHealth(playerid, 50);
-	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Oof!");
-	PlayAudioStreamForPlayer(playerid, "http://bit.do/Roblox-Death");
-	return 1;
-}
-
 COMMAND:armor(playerid, params[]) {
 	SetPlayerArmour(playerid, 100);
-	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Armor refilled!");
+	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Armor refilled");
 
 	return 1;
 }
@@ -905,26 +900,25 @@ Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[]) {
 	if(!response) {
 		Kick(playerid);
 	}
-	new counter = 0;
-
 	new strbuf[129];
 	WP_Hash(strbuf, sizeof(strbuf), inputtext);
-	printf("%s", strbuf);
-	printf("%s", pInfo[playerid][playerPassword]);
 	if(strcmp(strbuf, pInfo[playerid][playerPassword]) == 0) {
 		GivePlayerMoney(playerid, pInfo[playerid][playerCash]);
 		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Successfully logged in!");
 		TogglePlayerSpectating(playerid, false);
+		loginAttempts[playerid] = 0;
 	} else {
-		new message[128];
-		counter++;
-		if(counter == 3) {
+		new message[33];
+		loginAttempts[playerid]++;
+		if(loginAttempts[playerid] == 3) {
+			loginAttempts[playerid] = 0;
 			Kick(playerid);
 		}
-		if(3-counter == 1) {
+		if(loginAttempts[playerid] == 2) {
 			format(message, sizeof(message), "SERVER: You have 1 more attempt");	
+		} else {
+			format(message, sizeof(message), "SERVER: You have %d more attempts", 3-loginAttempts[playerid]);
 		}
-		format(message, sizeof(message), "SERVER: You have %d more attempts", 3-counter);
 		SendClientMessage(playerid, COLOR_YELLOW, message);
 		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_INPUT, "Login", "Please insert the password linked to this account", "Login", "Quit");
 	}
