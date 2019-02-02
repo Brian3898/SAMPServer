@@ -2728,3 +2728,93 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [23:58:20] Number of vehicle models: 0
 [23:58:45] [connection] incoming connection: 192.168.1.254:55553 id: 0
 [23:58:45] [join] Brian has joined the server (0:192.168.1.254)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:37:25] filterscripts = ""  (string)
+[09:37:25] 
+[09:37:25] Server Plugins
+[09:37:25] --------------
+[09:37:25]  Loading plugin: sscanf
+[09:37:25] 
+
+[09:37:25]  ===============================
+
+[09:37:25]       sscanf plugin loaded.     
+
+[09:37:25]          Version:  2.8.3        
+
+[09:37:25]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:37:25]  ===============================
+
+[09:37:25]   Loaded.
+[09:37:25]  Loaded 1 plugins.
+
+[09:37:25] 
+[09:37:25] Filterscripts
+[09:37:25] ---------------
+[09:37:25]   Loaded 0 filterscripts.
+
+[09:37:25] 
+----------------------------------
+[09:37:25] Freeroam
+[09:37:25] ----------------------------------
+
+[09:37:25] Number of vehicle models: 0
+[09:37:58] [connection] incoming connection: 192.168.1.254:64413 id: 0
+[09:37:58] [join] Brian has joined the server (0:192.168.1.254)
+[09:39:32] [connection] incoming connection: 192.168.1.254:50221 id: 1
+[09:39:32] [join] Brian3898 has joined the server (1:192.168.1.254)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:44:19] filterscripts = ""  (string)
+[09:44:19] 
+[09:44:19] Server Plugins
+[09:44:19] --------------
+[09:44:19]  Loading plugin: sscanf
+[09:44:19] 
+
+[09:44:19]  ===============================
+
+[09:44:19]       sscanf plugin loaded.     
+
+[09:44:19]          Version:  2.8.3        
+
+[09:44:19]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:44:19]  ===============================
+
+[09:44:19]   Loaded.
+[09:44:19]  Loaded 1 plugins.
+
+[09:44:19] 
+[09:44:19] Filterscripts
+[09:44:19] ---------------
+[09:44:19]   Loaded 0 filterscripts.
+
+[09:44:19] 
+----------------------------------
+[09:44:19] Freeroam
+[09:44:19] ----------------------------------
+
+[09:44:19] Number of vehicle models: 0
+[09:44:32] [connection] incoming connection: 192.168.1.254:53612 id: 0
+[09:44:32] [join] Brian has joined the server (0:192.168.1.254)
+[09:44:32] yeah its me bytch
+[09:44:33] [connection] incoming connection: 192.168.1.254:62495 id: 1
+[09:44:34] [join] Brian3898 has joined the server (1:192.168.1.254)
+[09:44:34] yeah its me bytch

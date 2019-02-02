@@ -253,10 +253,8 @@ public OnGameModeExit()
 public OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY, Float:fZ) {
 	new driverID = getDriverID(hitid);
 	if(hittype == 2 && driverID != -1 && isPlayerVGod[driverID] == 1) {
-		new targetName[MAX_PLAYER_NAME];
 		new message[39 + MAX_PLAYER_NAME];
-		GetPlayerName(hitid, targetName, sizeof(targetName) + 1);
-		format(message, sizeof(message), "SERVER: %s has vehicle godmode enabled", targetName);
+		format(message, sizeof(message), "SERVER: %s has vehicle godmode enabled", getPlayerName(hitid));
 		SendClientMessage(playerid, COLOR_YELLOW, message);
 		return 0;
 	}
@@ -276,11 +274,8 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
-	new pName[MAX_PLAYER_NAME];
 	new joinMessage[29 + MAX_PLAYER_NAME + 1];
-
-	GetPlayerName(playerid, pName, sizeof(pName) + 1);
-	format(joinMessage, sizeof(joinMessage), "JOIN: %s has joined the server!", pName);
+	format(joinMessage, sizeof(joinMessage), "JOIN: %s has joined the server!", getPlayerName(playerid));
 	SendClientMessageToAll(COLOR_YELLOW, joinMessage);
 
 	return 1;
@@ -288,11 +283,8 @@ public OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	new pName[MAX_PLAYER_NAME];
 	new leaveMessage[27 + MAX_PLAYER_NAME + 1];
-
-	GetPlayerName(playerid, pName, sizeof(pName) + 1);
-	format(leaveMessage, sizeof(leaveMessage), "QUIT: %s has left the server!", pName);
+	format(leaveMessage, sizeof(leaveMessage), "QUIT: %s has left the server!", getPlayerName(playerid));
 	SendClientMessageToAll(COLOR_YELLOW, leaveMessage);
 
 	return 1;
@@ -352,10 +344,8 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid, bodypart) {
 	if(isPlayerGod[playerid] == 1) {
 		SetPlayerHealth(playerid, 100);
-		new pName[MAX_PLAYER_NAME];
 		new message[30 + MAX_PLAYER_NAME + 1];
-		GetPlayerName(playerid, pName, MAX_PLAYER_NAME+1);
-		format(message, sizeof(message), "SERVER: %s has godmode enabled", pName);
+		format(message, sizeof(message), "SERVER: %s has godmode enabled", getPlayerName(playerid));
 		SendClientMessage(issuerid, COLOR_YELLOW, message);
 	}
 
@@ -906,4 +896,10 @@ forward removeVehicleAfterDeath(vehicleid);
 public removeVehicleAfterDeath(vehicleid) {
 	DestroyVehicle(vehicleid);
 	return 1;
+}
+
+stock getPlayerName(playerid) {
+	new pName[MAX_PLAYER_NAME];
+	GetPlayerName(playerid, pName, MAX_PLAYER_NAME+1);
+	return pName;
 }
