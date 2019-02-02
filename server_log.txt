@@ -2818,3 +2818,97 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [09:44:33] [connection] incoming connection: 192.168.1.254:62495 id: 1
 [09:44:34] [join] Brian3898 has joined the server (1:192.168.1.254)
 [09:44:34] yeah its me bytch
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[09:49:58] filterscripts = ""  (string)
+[09:49:58] 
+[09:49:58] Server Plugins
+[09:49:58] --------------
+[09:49:58]  Loading plugin: sscanf
+[09:49:58] 
+
+[09:49:58]  ===============================
+
+[09:49:58]       sscanf plugin loaded.     
+
+[09:49:58]          Version:  2.8.3        
+
+[09:49:58]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:49:58]  ===============================
+
+[09:49:58]   Loaded.
+[09:49:58]  Loaded 1 plugins.
+
+[09:49:58] 
+[09:49:58] Filterscripts
+[09:49:58] ---------------
+[09:49:58]   Loaded 0 filterscripts.
+
+[09:49:58] 
+----------------------------------
+[09:49:58] Freeroam
+[09:49:58] ----------------------------------
+
+[09:49:58] Number of vehicle models: 0
+[09:50:20] [connection] incoming connection: 192.168.1.254:56092 id: 0
+[09:50:20] [connection] incoming connection: 192.168.1.254:65237 id: 1
+[09:50:20] [join] Brian3898 has joined the server (0:192.168.1.254)
+[09:50:20] [join] Brian has joined the server (1:192.168.1.254)
+[09:50:37] [part] Brian3898 has left the server (0:1)
+[09:51:13] [connection] incoming connection: 192.168.1.254:58663 id: 0
+[09:51:13] [join] Brian3898 has joined the server (0:192.168.1.254)
+[09:56:39] [connection] incoming connection: 86.126.141.169:5112 id: 2
+[09:56:40] [join] Phenex_DeJesus has joined the server (2:86.126.141.169)
+[09:57:53] [part] Phenex_DeJesus has left the server (2:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[10:09:54] filterscripts = ""  (string)
+[10:09:54] 
+[10:09:54] Server Plugins
+[10:09:54] --------------
+[10:09:54]  Loading plugin: sscanf
+[10:09:54] 
+
+[10:09:54]  ===============================
+
+[10:09:54]       sscanf plugin loaded.     
+
+[10:09:54]          Version:  2.8.3        
+
+[10:09:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:09:54]  ===============================
+
+[10:09:54]   Loaded.
+[10:09:54]  Loaded 1 plugins.
+
+[10:09:54] 
+[10:09:54] Filterscripts
+[10:09:54] ---------------
+[10:09:54]   Loaded 0 filterscripts.
+
+[10:09:54] 
+----------------------------------
+[10:09:54] Freeroam
+[10:09:54] ----------------------------------
+
+[10:09:54] Number of vehicle models: 0
+[10:10:08] [connection] incoming connection: 192.168.1.254:50760 id: 0
+[10:10:08] [join] Brian has joined the server (0:192.168.1.254)
+[10:10:11] [connection] incoming connection: 192.168.1.254:60887 id: 1
+[10:10:11] [join] Brian3898 has joined the server (1:192.168.1.254)

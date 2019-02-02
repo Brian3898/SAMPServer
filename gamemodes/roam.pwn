@@ -256,6 +256,7 @@ public OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY
 		new message[39 + MAX_PLAYER_NAME];
 		format(message, sizeof(message), "SERVER: %s has vehicle godmode enabled", getPlayerName(hitid));
 		SendClientMessage(playerid, COLOR_YELLOW, message);
+		fixVehicle(hitid);
 		return 0;
 	}
 
@@ -343,7 +344,6 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 
 public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid, bodypart) {
 	if(isPlayerGod[playerid] == 1) {
-		SetPlayerHealth(playerid, 100);
 		new message[30 + MAX_PLAYER_NAME + 1];
 		format(message, sizeof(message), "SERVER: %s has godmode enabled", getPlayerName(playerid));
 		SendClientMessage(issuerid, COLOR_YELLOW, message);
@@ -410,6 +410,9 @@ public OnVehiclePaintjob(playerid, vehicleid, paintjobid)
 public OnVehicleRespray(playerid, vehicleid, color1, color2)
 {
 	return 1;
+}
+
+public OnVehicleDamageStatusUpdate(vehicleid, playerid) {
 }
 
 public OnPlayerSelectedMenuRow(playerid, row)
@@ -828,7 +831,7 @@ COMMAND:vgod(playerid, params[]) {
 	} 
 
 	if(isPlayerVGod[playerid] == 1) {
-		isPlayerVGod[playerid] = 0;
+		isPlayerVGod[playerid] = 0;		
 		KillTimer(vGodTimer[playerid]);
 		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Vehicle godmode OFF");
 	}
@@ -839,12 +842,14 @@ COMMAND:vgod(playerid, params[]) {
 COMMAND:god(playerid, params[]) {
 	if(isPlayerGod[playerid] == 0) {
 		isPlayerGod[playerid] = 1;
-		SetPlayerHealth(playerid, 100);
+		SetPlayerHealth(playerid,  Float:0x7F800000);
+
 		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Godmode ON");
 	}
 
 	if(isPlayerGod[playerid] == 1) {
 		isPlayerGod[playerid] = 0;
+		SetPlayerHealth(playerid, 100);
 		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Godmode OFF");
 	}
 
