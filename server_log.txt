@@ -2686,3 +2686,45 @@ v0.3.DL-R1, (C)2005-2018 SA-MP Team
 [21:59:32] [join] Brian has joined the server (0:192.168.1.254)
 [22:00:51] [connection] incoming connection: 192.168.1.254:49733 id: 1
 [22:00:51] [join] Brian3898 has joined the server (1:192.168.1.254)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[23:58:20] filterscripts = ""  (string)
+[23:58:20] 
+[23:58:20] Server Plugins
+[23:58:20] --------------
+[23:58:20]  Loading plugin: sscanf
+[23:58:20] 
+
+[23:58:20]  ===============================
+
+[23:58:20]       sscanf plugin loaded.     
+
+[23:58:20]          Version:  2.8.3        
+
+[23:58:20]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:58:20]  ===============================
+
+[23:58:20]   Loaded.
+[23:58:20]  Loaded 1 plugins.
+
+[23:58:20] 
+[23:58:20] Filterscripts
+[23:58:20] ---------------
+[23:58:20]   Loaded 0 filterscripts.
+
+[23:58:20] 
+----------------------------------
+[23:58:20] Freeroam
+[23:58:20] ----------------------------------
+
+[23:58:20] Number of vehicle models: 0
+[23:58:45] [connection] incoming connection: 192.168.1.254:55553 id: 0
+[23:58:45] [join] Brian has joined the server (0:192.168.1.254)
