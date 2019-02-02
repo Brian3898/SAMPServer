@@ -10,11 +10,6 @@
 	Created by Emmet on Friday, January 24, 2014.
 */
 
-#if !defined isnull
-	#define isnull(%1) \
-		((!(%1[0])) || (((%1[0]) == '\1') && (!(%1[1]))))
-#endif
-
 #define Dialog:%0(%1) \
 	forward dialog_%0(%1); public dialog_%0(%1)
 

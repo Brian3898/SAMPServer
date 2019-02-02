@@ -1,7 +1,10 @@
 #include <a_samp>
+#include <YSI\y_ini>
 #include <sscanf2>
 #include <zcmd>
 #include <easydialog>
+
+native WP_Hash(buffer[], len, const str[]);
 
 main()
 {
@@ -11,6 +14,14 @@ main()
 }
 
 #define COLOR_YELLOW 0xFFFF00AA
+#define USERPATH "/Users/%s.ini"
+
+enum playerInfo {
+	playerCash,
+	playerPassword[129]
+}
+
+new pInfo[MAX_PLAYERS][playerInfo];
 
 new isPlayerVGod[MAX_PLAYERS];
 new isPlayerGod[MAX_PLAYERS];
@@ -275,9 +286,16 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
+	TogglePlayerSpectating(playerid, true);
 	new joinMessage[29 + MAX_PLAYER_NAME + 1];
 	format(joinMessage, sizeof(joinMessage), "JOIN: %s has joined the server!", getPlayerName(playerid));
 	SendClientMessageToAll(COLOR_YELLOW, joinMessage);
+	if(!fexist(getUserFile(playerid))) {
+		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_INPUT, "Register", "Please insert a password to register a new account", "Register", "Quit");
+	} else {
+		INI_ParseFile(getUserFile(playerid), "loadUserData_data", .bExtra = true, .extra = playerid);
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_INPUT, "Login", "Please insert the password linked to this account", "Login", "Quit");
+	}
 
 	return 1;
 }
@@ -287,6 +305,10 @@ public OnPlayerDisconnect(playerid, reason)
 	new leaveMessage[27 + MAX_PLAYER_NAME + 1];
 	format(leaveMessage, sizeof(leaveMessage), "QUIT: %s has left the server!", getPlayerName(playerid));
 	SendClientMessageToAll(COLOR_YELLOW, leaveMessage);
+	new INI:File = INI_Open(getUserFile(playerid));
+    INI_SetTag(File,"data");
+    INI_WriteInt(File,"Cash", GetPlayerMoney(playerid));
+    INI_Close(File);
 
 	return 1;
 }
@@ -856,7 +878,59 @@ COMMAND:god(playerid, params[]) {
 	return 1;
 }
 
+Dialog:DIALOG_REGISTER(playerid, response, listitem, inputtext[]) {
+	if(!response) {
+		Kick(playerid);
+	} else {
+		if(!strlen(inputtext)) {
+			return Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_INPUT, "Register", "Please insert a password to register a new account", "Register", "Quit");
+		}
+		new strbuf[129];
+		WP_Hash(strbuf, sizeof(strbuf), inputtext);
+		new INI:File = INI_Open(getUserFile(playerid));
+		INI_SetTag(File, "data");
+		INI_WriteString(File,"Password", strbuf);
+        INI_WriteInt(File,"Cash", 0);
+        INI_Close(File);
 
+        SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Successfully registered!");
+        TogglePlayerSpectating(playerid, false);
+	}
+
+	return 1;
+}
+
+Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[]) {
+
+	if(!response) {
+		Kick(playerid);
+	}
+	new counter = 0;
+
+	new strbuf[129];
+	WP_Hash(strbuf, sizeof(strbuf), inputtext);
+	printf("%s", strbuf);
+	printf("%s", pInfo[playerid][playerPassword]);
+	if(strcmp(strbuf, pInfo[playerid][playerPassword]) == 0) {
+		GivePlayerMoney(playerid, pInfo[playerid][playerCash]);
+		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Successfully logged in!");
+		TogglePlayerSpectating(playerid, false);
+	} else {
+		new message[128];
+		counter++;
+		if(counter == 3) {
+			Kick(playerid);
+		}
+		if(3-counter == 1) {
+			format(message, sizeof(message), "SERVER: You have 1 more attempt");	
+		}
+		format(message, sizeof(message), "SERVER: You have %d more attempts", 3-counter);
+		SendClientMessage(playerid, COLOR_YELLOW, message);
+		Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_INPUT, "Login", "Please insert the password linked to this account", "Login", "Quit");
+	}
+
+	return 1;
+}
 
 forward isSkinValid(skinid);
 public isSkinValid(skinid) {
@@ -903,8 +977,23 @@ public removeVehicleAfterDeath(vehicleid) {
 	return 1;
 }
 
+forward loadUserData_data(playerid, name[], value[]);
+public loadUserData_data(playerid, name[], value[]) {
+	INI_String("Password", pInfo[playerid][playerPassword], 129);
+    INI_Int("Cash", pInfo[playerid][playerCash]);
+    return 1;
+}
+
+stock getUserFile(playerid) {
+	new filePath[MAX_PLAYER_NAME + 13 + 1];
+	format(filePath, sizeof(filePath), USERPATH, getPlayerName(playerid));
+
+	return filePath;
+}
+
 stock getPlayerName(playerid) {
 	new pName[MAX_PLAYER_NAME];
 	GetPlayerName(playerid, pName, MAX_PLAYER_NAME+1);
 	return pName;
 }
+

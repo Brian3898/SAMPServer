@@ -26,11 +26,6 @@
 #define cmd(%1,%2,%3) \
 			COMMAND:%1(%2, %3)
 
-#if !defined isnull
-	#define isnull(%1) \
-				((!(%1[0])) || (((%1[0]) == '\1') && (!(%1[1]))))
-#endif
-
 
 forward OnPlayerCommandReceived(playerid, cmdtext[]); 
 forward OnPlayerCommandPerformed(playerid, cmdtext[], success); 
