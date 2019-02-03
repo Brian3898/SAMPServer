@@ -24,6 +24,7 @@ enum playerInfo {
 new pInfo[MAX_PLAYERS][playerInfo];
 
 new loginAttempts[MAX_PLAYERS];
+new isPlayerSpawned[MAX_PLAYERS];
 new isPlayerVGod[MAX_PLAYERS];
 new isPlayerGod[MAX_PLAYERS];
 new vGodTimer[MAX_PLAYERS];
@@ -291,6 +292,7 @@ public OnPlayerConnect(playerid)
 	new joinMessage[29 + MAX_PLAYER_NAME + 1];
 	format(joinMessage, sizeof(joinMessage), "JOIN: %s has joined the server!", getPlayerName(playerid));
 	SendClientMessageToAll(COLOR_YELLOW, joinMessage);
+	isPlayerSpawned[playerid] = 0;
 	loginAttempts[playerid] = 0;
 	if(!fexist(getUserFile(playerid))) {
 		Dialog_Show(playerid, DIALOG_REGISTER, DIALOG_STYLE_INPUT, "Register", "Please insert a password to register a new account", "Register", "Quit");
@@ -317,11 +319,13 @@ public OnPlayerDisconnect(playerid, reason)
 
 public OnPlayerSpawn(playerid)
 {
+	isPlayerSpawned[playerid] = 1;
 	return 1;
 }
 
 public OnPlayerDeath(playerid, killerid, reason)
 {
+	isPlayerSpawned[playerid] = 0;
 	return 1;
 }
 
@@ -753,6 +757,9 @@ Dialog:SPECIAL_LIST(playerid, response, listitem, inputtext[]) {
 
 
 COMMAND:disarm(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
 	ResetPlayerWeapons(playerid);
 	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Weapons removed");
 
@@ -760,6 +767,9 @@ COMMAND:disarm(playerid, params[]) {
 }
 
 COMMAND:armor(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
 	SetPlayerArmour(playerid, 100);
 	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Armor refilled");
 
@@ -767,6 +777,9 @@ COMMAND:armor(playerid, params[]) {
 }
 
 COMMAND:setskin(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
 
 	new skinID;
 	if(sscanf(params, "i", skinID)) {
@@ -783,6 +796,9 @@ COMMAND:setskin(playerid, params[]) {
 COMMAND:ss(playerid, params[]) return cmd_setskin(playerid, params);
 
 COMMAND:heal(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
 
 	new Float:healthValue;
 	if(sscanf(params, "f", healthValue)) {
@@ -801,6 +817,10 @@ COMMAND:heal(playerid, params[]) {
 }
 
 COMMAND:v(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
 	new vehicleName[50];
 	if(sscanf(params, "s[50]", vehicleName)) {
 		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Usage is /v (name)");
@@ -824,6 +844,10 @@ COMMAND:v(playerid, params[]) {
 }
 
 COMMAND:dv(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
 	if(IsPlayerInAnyVehicle(playerid) == 0) {
 		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: You're not in a vehicle");
 	}
@@ -839,6 +863,10 @@ COMMAND:dv(playerid, params[]) {
 }
 
 COMMAND:vgod(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
 	if(isPlayerVGod[playerid] == 0) {
 		isPlayerVGod[playerid] = 1;
 		if(IsPlayerInAnyVehicle(playerid)) {
@@ -857,6 +885,10 @@ COMMAND:vgod(playerid, params[]) {
 }
 
 COMMAND:god(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
 	if(isPlayerGod[playerid] == 0) {
 		isPlayerGod[playerid] = 1;
 		SetPlayerHealth(playerid,  Float:0x7F800000);
@@ -874,6 +906,10 @@ COMMAND:god(playerid, params[]) {
 }
 
 COMMAND:tp(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
 	new targetID;
 	if(sscanf(params, "i", targetID)) {
 		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Usage is /tp [ID]");
@@ -925,6 +961,10 @@ COMMAND:tp(playerid, params[]) {
 }
 
 COMMAND:flip(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
 	if(!IsPlayerInAnyVehicle(playerid)) {
 		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: You're not in any vehicle");
 		return 1;
@@ -936,6 +976,47 @@ COMMAND:flip(playerid, params[]) {
 	GetVehicleZAngle(vehicleID, angle);
 	SetVehicleZAngle(vehicleID, angle);
 	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Vehicle flipped");
+
+	return 1;
+}
+
+COMMAND:cmds(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
+	Dialog_Show(playerid, COMMAND_DIALOG, DIALOG_STYLE_LIST, "Command List", "General\nVehicles\nWeapons", "Select", "Close");
+
+	return 1;
+}
+
+COMMAND:kill(playerid, params[]) {
+	if(isPlayerSpawned[playerid] == 0) {
+		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Please spawn before using commands");
+	}
+
+	SetPlayerHealth(playerid, Float:0);
+
+	return 1;
+}
+
+Dialog:COMMAND_DIALOG(playerid, response, listitem, inputtext[]) {
+	if(response) {
+		switch(listitem) {
+			case 0: {
+				Dialog_Show(playerid, GENERAL_COMMANDS, DIALOG_STYLE_MSGBOX, "General Commands", "/setskin(ss) - Sets player model/skin\n/heal [ammount] - Heals player for the health specified, or fully if no health is specified\n/armor - Restores player armor\n/tp [ID] - Teleports player\n/god - Gives player godmode", "Close", "");
+				return 1;
+			}
+			case 1: {
+				Dialog_Show(playerid, VEHICLE_COMMANDS, DIALOG_STYLE_MSGBOX, "Vehicle Commands", "/v [ID] - Spawns vehicle\n/vgod - Makes cars unbreakable\n/flip - Flips vehicles", "Close", "");
+				return 1;
+			}
+			case 2: {
+				Dialog_Show(playerid, WEAPON_COMMANDS, DIALOG_STYLE_MSGBOX, "Weapon Commands", "/weps - Opens the weapon list\n/disarm - Disarms the player", "Close", "");
+				return 1;
+			}
+		}
+	}
 
 	return 1;
 }
@@ -1057,4 +1138,5 @@ stock getPlayerName(playerid) {
 	GetPlayerName(playerid, pName, MAX_PLAYER_NAME+1);
 	return pName;
 }
+
 
