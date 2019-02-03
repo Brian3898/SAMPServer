@@ -900,7 +900,7 @@ COMMAND:tp(playerid, params[]) {
 				for(new i = 0; i<=GetPlayerPoolSize(); i++) {
 					if(IsPlayerInVehicle(i, vehicleID)) {
 						new seatID;
-						seatID = GetPlayerVehicleSeat(playerid);
+						seatID = GetPlayerVehicleSeat(i);
 						SetPlayerPos(i, xPos+1, yPos+1, zPos);
 						SetPlayerFacingAngle(i, angle);
 						SetVehiclePos(vehicleID, xPos+1, yPos+1, zPos);
