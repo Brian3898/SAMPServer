@@ -801,8 +801,8 @@ COMMAND:heal(playerid, params[]) {
 }
 
 COMMAND:v(playerid, params[]) {
-	new vehicleName[128];
-	if(sscanf(params, "s[128]", vehicleName)) {
+	new vehicleName[50];
+	if(sscanf(params, "s[50]", vehicleName)) {
 		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Usage is /v (name)");
 	} else {
 		if(IsPlayerInAnyVehicle(playerid) == 1) {
@@ -869,6 +869,73 @@ COMMAND:god(playerid, params[]) {
 		SetPlayerHealth(playerid, 100);
 		return SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Godmode OFF");
 	}
+
+	return 1;
+}
+
+COMMAND:tp(playerid, params[]) {
+	new targetID;
+	if(sscanf(params, "i", targetID)) {
+		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Usage is /tp [ID]");
+	} else {
+		if(playerid == targetID) {
+			SendClientMessage(playerid, COLOR_YELLOW, "SERVER: You can't teleport to yourself");
+			return 1;
+		}
+
+		if(IsPlayerConnected(targetID)) {
+			new Float:xPos, Float:yPos, Float:zPos, Float:angle;
+			new targetMessage[32 + MAX_PLAYER_NAME + 1];
+			new playerMessage[31 + MAX_PLAYER_NAME + 1];
+			GetPlayerPos(targetID, xPos, yPos, zPos);
+			GetPlayerFacingAngle(targetID, angle);
+			if(IsPlayerInAnyVehicle(playerid)) {
+				if(GetPlayerVehicleID(targetID) == GetPlayerVehicleID(playerid)) {
+					format(playerMessage, sizeof(playerMessage), "SERVER: %s is in your vehicle", getPlayerName(targetID));
+					SendClientMessage(playerid, COLOR_YELLOW, playerMessage);
+					return 1;
+				}
+				new vehicleID;
+				vehicleID = GetPlayerVehicleID(playerid);
+				for(new i = 0; i<=GetPlayerPoolSize(); i++) {
+					if(IsPlayerInVehicle(i, vehicleID)) {
+						new seatID;
+						seatID = GetPlayerVehicleSeat(playerid);
+						SetPlayerPos(i, xPos+1, yPos+1, zPos);
+						SetPlayerFacingAngle(i, angle);
+						SetVehiclePos(vehicleID, xPos+1, yPos+1, zPos);
+						SetVehicleVelocity(vehicleID, Float:0, Float:0, Float:0);
+						PutPlayerInVehicle(i, vehicleID, seatID);
+					}
+				}
+			} else {
+				SetPlayerPos(playerid, xPos+1, yPos+1, zPos);
+				SetPlayerFacingAngle(playerid, angle);
+			}
+			format(targetMessage, sizeof(targetMessage), "SERVER: %s has teleported to you", getPlayerName(playerid));
+			format(playerMessage, sizeof(playerMessage), "SERVER: You've teleported to %s", getPlayerName(targetID));
+			SendClientMessage(playerid, COLOR_YELLOW, playerMessage);
+			SendClientMessage(targetID, COLOR_YELLOW, targetMessage);
+		} else {
+			SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Player not connected");
+		}
+	}
+
+	return 1;
+}
+
+COMMAND:flip(playerid, params[]) {
+	if(!IsPlayerInAnyVehicle(playerid)) {
+		SendClientMessage(playerid, COLOR_YELLOW, "SERVER: You're not in any vehicle");
+		return 1;
+	}
+
+	new vehicleID;
+	new Float:angle;
+	vehicleID = GetPlayerVehicleID(playerid);
+	GetVehicleZAngle(vehicleID, angle);
+	SetVehicleZAngle(vehicleID, angle);
+	SendClientMessage(playerid, COLOR_YELLOW, "SERVER: Vehicle flipped");
 
 	return 1;
 }
